@@ -21,7 +21,7 @@ function Diary() {
                     <nav aria-label="...">
                         <ul className="pagination">
                             <li className="page-item">
-                                <a className="page-link" href='/game'>Next</a>
+                                <a className="page-link" href='/game'>Next to Game>></a>
                             </li>
                         </ul>
                     </nav>

@@ -4,12 +4,12 @@ import Diary from './components/Diary'
 import {
   BrowserRouter as Router,
   Route,
-} from "react-router-dom";
+} from "react-router-dom"; //afther install react-router-dom
 function App() {
   return (
     <Router>
-        <Route exact path="/" component={Diary} />
-        <Route exact path="/game" component={GameMath}/>
+      <Route exact path="/" component={Diary} />
+      <Route exact path="/game" component={GameMath} />
     </Router >
   );
 }
